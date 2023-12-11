@@ -7,24 +7,24 @@ import router from './src/routes/index.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 mongoose.Promise = global.Promise;
 mongoose.connect(process.env.DB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.catch((err) => console.error(err));
+  .catch((err) => console.error(err));
 mongoose.set('debug', true);
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use('/api/v1', router);
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  console.error(err);
   res.status(500).send('Something went wrong!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port: ${PORT}`)
-})
+  console.log(`Server is running on port: ${PORT}`);
+});

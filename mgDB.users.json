@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "657631f4a0bcaa19eb55f363"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "role": "admin",
+  "age": 30,
+  "numberOfArticles": 0,
+  "articles": [],
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "fullName": "John Doe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657631f4a0bcaa19eb55f364"
+  },
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane.doe@example.com",
+  "role": "writer",
+  "age": 25,
+  "numberOfArticles": 3,
+  "articles": [],
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "fullName": "Jane Doe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6576337b733182d85710a5c7"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "another.email@example.com",
+  "role": "writer",
+  "age": 19,
+  "numberOfArticles": 0,
+  "articles": [],
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "fullName": "John Doe",
+  "__v": 0
+}]

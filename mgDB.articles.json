@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "65763246a0bcaa19eb55f369"
+  },
+  "title": "Introduction to MongoDB",
+  "subtitle": "Getting started with NoSQL databases",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "owner": "657631f4a0bcaa19eb55f363",
+  "category": "history",
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65763246a0bcaa19eb55f36a"
+  },
+  "title": "Новый заголовок",
+  "subtitle": "Новый подзаголовок",
+  "description": "Новое описание",
+  "owner": "657631f4a0bcaa19eb55f364",
+  "category": "sport",
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65763246a0bcaa19eb55f36b"
+  },
+  "title": "Sports News",
+  "subtitle": "Latest updates from the world of sports",
+  "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "owner": "6576337b733182d85710a5c7",
+  "category": "sport",
+  "createdAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T21:54:03.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6576680665f36b236a39819d"
+  },
+  "title": "Название тест",
+  "subtitle": "Подзаголовок статьи",
+  "description": "Текст статьи описания...",
+  "owner": {
+    "$oid": "657631f4a0bcaa19eb55f364"
+  },
+  "category": "games",
+  "createdAt": {
+    "$date": "2023-12-11T01:38:14.092Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T01:38:14.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6576695e7a88a0bddc198960"
+  },
+  "title": "название 1",
+  "subtitle": "Подзаголовок статьи",
+  "description": "Текст статьи описания...",
+  "owner": {
+    "$oid": "657631f4a0bcaa19eb55f364"
+  },
+  "category": "games",
+  "createdAt": {
+    "$date": "2023-12-11T01:43:58.857Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T01:43:58.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657669617a88a0bddc198964"
+  },
+  "title": "название 2",
+  "subtitle": "Подзаголовок статьи",
+  "description": "Текст статьи описания...",
+  "owner": {
+    "$oid": "657631f4a0bcaa19eb55f364"
+  },
+  "category": "games",
+  "createdAt": {
+    "$date": "2023-12-11T01:44:01.259Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T01:44:01.259Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657669637a88a0bddc198968"
+  },
+  "title": "название 3",
+  "subtitle": "Подзаголовок статьи",
+  "description": "Текст статьи описания...",
+  "owner": {
+    "$oid": "657631f4a0bcaa19eb55f364"
+  },
+  "category": "games",
+  "createdAt": {
+    "$date": "2023-12-11T01:44:03.648Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T01:44:03.648Z"
+  },
+  "__v": 0
+}]
